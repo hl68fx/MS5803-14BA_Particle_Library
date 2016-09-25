@@ -12,12 +12,6 @@ Products that use this Library
 
 * [SEN-12909](https://www.sparkfun.com/products/12909)- Pressure sensor breakout.
 
-Version History
----------------
-
-* [V_1.1.0](https://github.com/sparkfun/SparkFun_MS5803-14BA_Breakout_Arduino_Library/releases/tag/V_1.1.0) - Initial Arduino library manager version
-* [V_1.1.1](https://github.com/sparkfun/SparkFun_MS5803-14BA_Breakout_Arduino_Library/releases/tag/V_1.1.1) - Fixes a few integer math bugs in previous version
-
 License Information
 -------------------
 

@@ -1,5 +1,5 @@
 {
-    "name": "MS5803",
+    "name": "MS5803_I2C",
     "version": "1.0.0",
     "author": "Casey Kuhns @ SparkFun Electronics, ported from Thomas Rockenbauer (https://github.com/hl68fx)",
     "license": "open source",

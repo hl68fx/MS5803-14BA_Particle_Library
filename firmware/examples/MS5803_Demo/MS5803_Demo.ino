@@ -17,7 +17,7 @@ Distributed as-is; no warranty is given.
 ******************************************************************************/
 
 #include "application.h"
-#include "MS5803_I2C.h"
+#include "MS5803_I2C/MS5803_I2C.h"
 #include "math.h"
 
 // Begin class with selected address

@@ -1,8 +1,8 @@
-
 /******************************************************************************
-SparkFun_MS5803_Demo.ino
-Demo Program for MS5803 pressure sensors.
-Casey Kuhns @ SparkFun Electronics
+Demo Program for MS5803 pressure sensors for Particle devices.
+Ported from Thomas Rockenbauer
+
+Created from Casey Kuhns @ SparkFun Electronics
 7/20/2014
 https://github.com/sparkfun/MS5803-14BA_Breakout/
 
@@ -10,24 +10,15 @@ The MS58XX MS57XX and MS56XX by Measurement Specialties is a low cost I2C pressu
 sensor.  This sensor can be used in weather stations and for altitude
 estimations. It can also be used underwater for water depth measurements. 
 
-Resources:
-This library uses the Arduino Wire.h to complete I2C transactions.
-
-Development environment specifics:
-	IDE: Arduino 1.0.5
-	Hardware Platform: Arduino Pro 3.3V/8MHz
-	T5403 Breakout Version: 1.0
-
-**Updated for Arduino 1.6.4 5/2015**
-	
 This code is beerware. If you see me (or any other SparkFun employee) at the
 local pub, and you've found our code helpful, please buy us a round!
 
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#include <Wire.h>
-#include <SparkFun_MS5803_I2C.h>
+#include "application.h"
+#include "MS5803_I2C.h"
+#include "math.h"
 
 // Begin class with selected address
 // available addresses (selected by jumper on board) 

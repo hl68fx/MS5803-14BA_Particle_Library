@@ -1,25 +1,14 @@
 /******************************************************************************
-MS5803_I2C.h
-Library for MS5803 pressure sensors.
-Casey Kuhns @ SparkFun Electronics
-6/26/2014
-https://github.com/sparkfun/MS5803-14BA_Breakout
+Demo Program for MS5803 pressure sensors for Particle devices.
+Ported from Thomas Rockenbauer
+
+Created from Casey Kuhns @ SparkFun Electronics
+7/20/2014
+https://github.com/sparkfun/MS5803-14BA_Breakout/
 
 The MS58XX MS57XX and MS56XX by Measurement Specialties is a low cost I2C pressure
 sensor.  This sensor can be used in weather stations and for altitude
 estimations. It can also be used underwater for water depth measurements. 
-
-In this file are the function prototypes in the MS5803 class 
-
-Resources:
-This library uses the Arduino Wire.h to complete I2C transactions.
-
-Development environment specifics:
-	IDE: Arduino 1.0.5
-	Hardware Platform: Arduino Pro 3.3V/8MHz
-	MS5803 Breakout Version: 1.0
-
-**Updated for Arduino 1.6.4 5/2015**
 
 This code is beerware. If you see me (or any other SparkFun employee) at the
 local pub, and you've found our code helpful, please buy us a round!
@@ -27,10 +16,10 @@ local pub, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#ifndef SparkFun_MS5803_I2C_h
-#define SparkFun_MS5803_I2C_h
+#ifndef MS5803_I2C_h
+#define MS5803_I2C_h
 
-#include <Arduino.h>
+#include <application.h>
 
 // Define units for conversions. 
 enum temperature_units

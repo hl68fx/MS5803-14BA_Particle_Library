@@ -1,4 +1,4 @@
-SparkFun Pressure Sensor Breakout - MS5803-14BA Arduino Library
+MS5803-14BA Particle Library
 ===============================================================
 
 ![SparkFun Pressure Sensor Breakout - MS5803-14BA](https://cdn.sparkfun.com//assets/parts/9/8/1/1/12909-01a.jpg)

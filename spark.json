@@ -1,0 +1,7 @@
+{
+    "name": "MS5803",
+    "version": "1.0.0",
+    "author": "Casey Kuhns @ SparkFun Electronics, ported from Thomas Rockenbauer (https://github.com/hl68fx)",
+    "license": "open source",
+    "description": "Library for MS5803 pressure sensors"
+}
